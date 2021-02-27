@@ -1,0 +1,101 @@
+.menu {
+  display: flex;
+  justify-content: space-between;
+  background-color: #000000;
+  padding: 15px;
+  font-size: 30px;
+  font-family: 'AgencyFB', Tahoma, 'Loopiejuice Regular';
+  font-weight: 200;
+  color: #ffffff;
+}
+
+body {
+  margin: 0px;
+  background-color: #f5f5f5;
+}
+
+.bodyImg {
+  position: relative;
+  text-align: center;
+  color: #ffffff;
+  font-size: 15px;
+  font-family: cursive;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.size {
+  font-size: 25px;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid img {
+  border: 2px solid black;
+  border-radius: 50px;
+}
+
+.origami {
+  position: relative;
+  border-radius: 20px;
+  background-color: #ffffff;
+  padding: 30px;
+  margin: 25px;
+  width: 310px;
+  font-family: 'Loopiejuice Regular';
+}
+
+.origami1 {
+  position: relative;
+  border-radius: 40px;
+  background-color: #eeff00;
+  padding: 30px;
+  margin: 55px;
+  width: 310px;
+  font-family: 'Loopiejuice Regular';
+}
+
+.origami:hover img {
+  opacity: 0.33;
+}
+
+.origami h1 {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+}
+
+.origami:hover h1 {
+  opacity: 1;
+}
+
+.about {
+  background-color: #ffffff;
+  padding: 30px;
+  margin: 25px;
+  font-family: fantasy;
+  border-radius: 20px;
+}
+
+.button {
+  background-color: #cfcfcf;
+  padding: 30px;
+  margin: auto;
+  font-family: fantasy;
+  color: #ffffff;
+  border-radius: 20px;
+  width: 200px;
+}
+  
